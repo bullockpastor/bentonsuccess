@@ -41,4 +41,12 @@ body {
     object-fit: contain;
     scale: 1;
   }
+
+  .form-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .form-grid > div[style*="gridColumn"] {
+    grid-column: 1 !important;
+  }
 }

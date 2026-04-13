@@ -143,7 +143,7 @@ export default function ContactModal() {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit}>
-                  <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 1rem" }}>
+                  <div className="form-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 1rem" }}>
                     <div>
                       <label style={labelStyle}>Name *</label>
                       <input required name="name" value={form.name} onChange={handleChange} style={inputStyle} />
