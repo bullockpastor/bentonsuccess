@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import FadeIn from "@/components/FadeIn";
+import ContactModal from "@/components/ContactModal";
 
 export default function Contact() {
   return (
@@ -26,12 +27,7 @@ export default function Contact() {
             <p style={{ fontFamily: "var(--font-inter)", color: "rgba(255,255,255,0.4)", fontSize: "1.1rem", marginBottom: "2.5rem", textAlign: "center", maxWidth: "500px" }}>
               Ready to work on something extraordinary? Reach out to discuss your project.
             </p>
-            <a
-              href="mailto:info@bentonsuccess.com"
-              style={{ fontFamily: "var(--font-inter)", color: "white", borderBottom: "1px solid rgba(255,255,255,0.5)", paddingBottom: "4px", fontSize: "1.2rem", letterSpacing: "0.05em", textDecoration: "underline", cursor: "pointer" }}
-            >
-              info@bentonsuccess.com
-            </a>
+            <ContactModal />
           </div>
         </FadeIn>
 
