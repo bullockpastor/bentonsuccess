@@ -30,7 +30,7 @@ export default function ContactModal() {
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
   const [form, setForm] = useState({
-    name: "", email: "", label: "", address: "",
+    name: "", email: "", phone: "", label: "", address: "",
     artist: "", projectDetails: "", anrManager: "", budget: "", deadline: "",
   });
 
@@ -151,6 +151,10 @@ export default function ContactModal() {
                     <div>
                       <label style={labelStyle}>Email *</label>
                       <input required type="email" name="email" value={form.email} onChange={handleChange} style={inputStyle} />
+                    </div>
+                    <div>
+                      <label style={labelStyle}>Phone / Call Back Number</label>
+                      <input type="tel" name="phone" value={form.phone} onChange={handleChange} style={inputStyle} placeholder="e.g. (310) 555-0100" />
                     </div>
                     <div>
                       <label style={labelStyle}>Label / Production Company</label>

@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const { name, email, label, address, artist, projectDetails, anrManager, budget, deadline } = body;
+  const { name, email, phone, label, address, artist, projectDetails, anrManager, budget, deadline } = body;
 
   try {
     await transporter.sendMail({
@@ -23,6 +23,7 @@ export async function POST(req: Request) {
         <h2>New Project Inquiry</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone / Call Back Number:</strong> ${phone || "N/A"}</p>
         <p><strong>Label / Production Company:</strong> ${label || "N/A"}</p>
         <p><strong>Address:</strong> ${address || "N/A"}</p>
         <p><strong>Artist / Group:</strong> ${artist || "N/A"}</p>
