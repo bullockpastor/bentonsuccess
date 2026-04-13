@@ -15,7 +15,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={ref}
-      className="relative w-full h-screen flex items-center justify-center overflow-hidden"
+      className="relative w-full flex items-center justify-center overflow-hidden" style={{ height: "100svh" }}
     >
       {/* Background video with parallax */}
       <motion.div className="absolute inset-0 w-full h-full" style={{ y: videoY }}>
