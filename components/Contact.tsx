@@ -28,7 +28,7 @@ export default function Contact() {
             </p>
             <a
               href="mailto:info@bentonsuccess.com"
-              style={{ fontFamily: "var(--font-inter)", color: "white", borderBottom: "1px solid rgba(255,255,255,0.3)", paddingBottom: "4px", fontSize: "1.2rem", letterSpacing: "0.05em", textDecoration: "none", transition: "border-color 0.3s" }}
+              style={{ fontFamily: "var(--font-inter)", color: "white", borderBottom: "1px solid rgba(255,255,255,0.5)", paddingBottom: "4px", fontSize: "1.2rem", letterSpacing: "0.05em", textDecoration: "underline", cursor: "pointer" }}
             >
               info@bentonsuccess.com
             </a>
