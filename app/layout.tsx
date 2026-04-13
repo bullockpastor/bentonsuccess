@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   verification: {
-    google: "YTA7_uy3kF8VeycIhcEfFwWQLznRKCywcVWlmTxmnbk",
+    google: "ip3bRdWJSf2YgIFHhsW8y0LG-XMQBvH12zm9f0Mqw2I",
   },
   title: "Bos | Multi-Platinum Music Producer",
   description: "Timothy 'Bos' Bullock — founder of Ivy League Productions. Multi-platinum producer behind Beyoncé, Britney Spears, Justin Bieber, and more.",
