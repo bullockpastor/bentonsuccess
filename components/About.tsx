@@ -62,7 +62,7 @@ export default function About() {
           </FadeIn>
           <FadeIn delay={0.9} className="w-full">
             <p style={{ fontFamily: "var(--font-inter)", color: "rgba(255,255,255,0.55)", lineHeight: 1.8, fontSize: "0.95rem", textAlign: "center" }}>
-              In May 2025, Bullock answered a higher calling and was appointed Pastor of Woods Memorial Baptist Church in Atlanta, Georgia. This transition reflects the full expression of his purpose — merging creative influence with spiritual leadership, and extending his impact beyond the global stage into the life, growth, and transformation of community.
+              In May 2025, Bullock answered a higher calling and was appointed Pastor of <a href="https://woodsmemorialbaptist.com/" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "underline", textUnderlineOffset: "3px" }}>Woods Memorial Baptist Church</a> in Atlanta, Georgia. This transition reflects the full expression of his purpose — merging creative influence with spiritual leadership, and extending his impact beyond the global stage into the life, growth, and transformation of community.
             </p>
           </FadeIn>
         </div>
