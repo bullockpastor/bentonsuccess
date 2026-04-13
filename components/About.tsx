@@ -52,7 +52,7 @@ export default function About() {
           </FadeIn>
           <FadeIn delay={0.7} className="w-full">
             <p style={{ fontFamily: "var(--font-inter)", color: "rgba(255,255,255,0.55)", lineHeight: 1.8, fontSize: "0.95rem", textAlign: "center" }}>
-              Beyond the studio, Bullock is an active voice in cultural and industry discourse — a featured panelist at the Democratic National Convention — and a partner in two production studios: <strong style={{ color: "white" }}>Elation Entertainment</strong> (New Orleans) and <strong style={{ color: "white" }}>Torch</strong> (Atlanta), extending his footprint across key creative hubs.
+              Beyond the studio, Bullock is an active voice in cultural and industry discourse — a featured panelist at the Democratic National Convention — and a partner in two production studios: <a href="https://www.elationent.com/" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "underline", textUnderlineOffset: "3px" }}>Elation Entertainment</a> (New Orleans) and <a href="https://torchatl.com/" target="_blank" rel="noopener noreferrer" style={{ color: "white", textDecoration: "underline", textUnderlineOffset: "3px" }}>Torch</a> (Atlanta), extending his footprint across key creative hubs.
             </p>
           </FadeIn>
           <FadeIn delay={0.8} className="w-full">
