@@ -23,7 +23,7 @@ export default function About() {
 
         <FadeIn delay={0.2} className="w-full">
           <div style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "3rem" }}>
-            <h2 style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(2rem, 7vw, 8rem)", letterSpacing: "0.02em", lineHeight: 1, color: "white", textAlign: "center", whiteSpace: "nowrap" }}>
+            <h2 style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(2rem, 7vw, 8rem)", letterSpacing: "0.02em", lineHeight: 1, color: "white", textAlign: "center" }}>
               TIMOTHY <span style={{ color: "rgba(255,255,255,0.3)" }}>&lsquo;BOS&rsquo;</span> BULLOCK
             </h2>
           </div>

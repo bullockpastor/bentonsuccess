@@ -63,7 +63,7 @@ export default function Credits() {
 
         {/* Stats */}
         <FadeIn delay={0.1} className="w-full">
-          <div style={{ display: "flex", justifyContent: "center", gap: "4rem", flexWrap: "nowrap", marginBottom: "3rem", paddingBottom: "3rem", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
+          <div style={{ display: "flex", justifyContent: "center", gap: "2rem", flexWrap: "wrap", marginBottom: "3rem", paddingBottom: "3rem", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
             {highlights.map((h) => (
               <div key={h.label} style={{ textAlign: "center" }}>
                 <p style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(1.2rem, 2vw, 1.8rem)", letterSpacing: "0.06em", color: "white", lineHeight: 1 }}>

@@ -83,7 +83,7 @@ export default function Services() {
               What I Do
             </p>
             <div style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "7rem" }}>
-              <h2 style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(2rem, 7vw, 8rem)", letterSpacing: "0.02em", lineHeight: 1, color: "white", whiteSpace: "nowrap" }}>
+              <h2 style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(2rem, 7vw, 8rem)", letterSpacing: "0.02em", lineHeight: 1, color: "white" }}>
                 SERVICES
               </h2>
             </div>

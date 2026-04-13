@@ -15,7 +15,7 @@ export default function Contact() {
               Get In Touch
             </p>
             <div style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "4rem" }}>
-              <h2 style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(2rem, 7vw, 9rem)", letterSpacing: "0.02em", lineHeight: 1, color: "white", whiteSpace: "nowrap" }}>
+              <h2 style={{ fontFamily: "var(--font-bebas)", fontSize: "clamp(2rem, 7vw, 9rem)", letterSpacing: "0.02em", lineHeight: 1, color: "white" }}>
                 LET&apos;S <span style={{ color: "rgba(255,255,255,0.2)" }}>CREATE.</span>
               </h2>
             </div>
