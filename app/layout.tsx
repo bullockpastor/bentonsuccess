@@ -20,22 +20,22 @@ export const metadata: Metadata = {
   title: "Bos | Multi-Platinum Music Producer",
   description: "Timothy 'Bos' Bullock — founder of Ivy League Productions. Multi-platinum producer behind Beyoncé, Britney Spears, Justin Bieber, and more.",
   icons: {
-    icon: "/assets/bos-logo-black.png",
-    apple: "/assets/bos-logo-black.png",
+    icon: [{ url: "/assets/bos-logo-black.png", type: "image/png", sizes: "any" }],
+    apple: [{ url: "/assets/bos-logo-black.png", type: "image/png" }],
   },
   openGraph: {
     title: "Bos | Multi-Platinum Music Producer",
     description: "Timothy 'Bos' Bullock — founder of Ivy League Productions. Multi-platinum producer behind Beyoncé, Britney Spears, Justin Bieber, and more.",
     url: "https://bentonsuccess.com",
     siteName: "Bent On Success",
-    images: [{ url: "/assets/bos-logo-white.png", width: 380, height: 190, alt: "Bent On Success" }],
+    images: [{ url: "/assets/bos-photo-2.jpg", width: 1200, height: 800, alt: "Timothy Bos Bullock" }],
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Bos | Multi-Platinum Music Producer",
     description: "Timothy 'Bos' Bullock — founder of Ivy League Productions. Multi-platinum producer behind Beyoncé, Britney Spears, Justin Bieber, and more.",
-    images: ["/assets/bos-logo-white.png"],
+    images: ["/assets/bos-photo-2.jpg"],
   },
 };
 

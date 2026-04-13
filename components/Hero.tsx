@@ -36,30 +36,39 @@ export default function Hero() {
       {/* Content */}
       <motion.div
         className="relative z-10 text-center px-6 flex flex-col items-center"
-        style={{ y: contentY }}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: [0, 1, 1, 0] }}
-        transition={{ duration: 5, times: [0, 0.2, 0.7, 1], delay: 0.4, ease: "easeInOut" }}
+        style={{ y: contentY, opacity }}
       >
         <motion.p
           className="text-white/60 uppercase tracking-[0.5em] text-base"
           style={{ fontFamily: "var(--font-inter)", fontWeight: 600, marginBottom: "6rem" }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.4 }}
         >
           Ivy League Productions
         </motion.p>
 
-        <Image
-          src="/assets/bos-logo-white.png"
-          alt="BOS"
-          width={380}
-          height={190}
-          className="object-contain mx-auto"
-          priority
-        />
+        <motion.div
+          initial={{ opacity: 0, scale: 0.88 }}
+          animate={{ opacity: [0, 1, 1, 0] }}
+          transition={{ duration: 5, times: [0, 0.2, 0.7, 1], delay: 0.4, ease: "easeInOut" }}
+        >
+          <Image
+            src="/assets/bos-logo-white.png"
+            alt="BOS"
+            width={380}
+            height={190}
+            className="object-contain mx-auto"
+            priority
+          />
+        </motion.div>
 
         <motion.p
           className="text-white/60 text-base tracking-[0.35em] uppercase"
           style={{ fontFamily: "var(--font-inter)", fontWeight: 600, marginTop: "6rem" }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1.2 }}
         >
           Bent On Success
         </motion.p>

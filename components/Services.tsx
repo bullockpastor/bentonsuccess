@@ -97,10 +97,10 @@ export default function Services() {
         </div>
 
         <FadeIn delay={0.4} className="w-full">
-          <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "5rem" }}>
+          <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "5rem", textAlign: "center" }}>
             <a
               href="#contact"
-              style={{ fontFamily: "var(--font-inter)", border: "1px solid rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.25em", fontSize: "0.75rem", padding: "1.25rem 3rem", textDecoration: "none", transition: "all 0.3s" }}
+              style={{ fontFamily: "var(--font-inter)", border: "1px solid rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.25em", fontSize: "0.75rem", padding: "1.25rem 2rem", textDecoration: "none", transition: "all 0.3s", display: "inline-block", textAlign: "center" }}
             >
               Inquire About a Project
             </a>
