@@ -84,6 +84,27 @@ export default function Credits() {
           ))}
         </div>
 
+        <FadeIn delay={0.5} className="w-full">
+          <div style={{ width: "100%", display: "flex", justifyContent: "center", marginTop: "3rem" }}>
+            <a
+              href="https://credits.muso.ai/profile/6d850e12-97ba-4bfe-9fb5-4c44a3d95909/credits"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontFamily: "var(--font-inter)", border: "1px solid rgba(255,255,255,0.3)", color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.25em", fontSize: "0.75rem", padding: "1.25rem 2rem", textDecoration: "none", transition: "all 0.3s", display: "inline-block", textAlign: "center" }}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLAnchorElement).style.borderColor = "white";
+                (e.currentTarget as HTMLAnchorElement).style.color = "white";
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.3)";
+                (e.currentTarget as HTMLAnchorElement).style.color = "rgba(255,255,255,0.6)";
+              }}
+            >
+              Full Discography
+            </a>
+          </div>
+        </FadeIn>
+
       </div>
     </section>
   );
